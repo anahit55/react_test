@@ -1,0 +1,51 @@
+
+1.	I think that my favourite JS features are spread operators, arrow functions, desctructures and async / await. 
+All the above mentioned features helps to have more compact, effective code with nice syntax
+
+2.	I’ll explain the async / await as I think, that it’s a best JS feature. 
+I had a project where I was needed to create videos. And for videos, I created images from HTML code ( using canvas ). 
+The video images could be up to 10 and I was needed to send created image names via AJAX to generate a video in backend.
+So, the problem was, that the AJAX worked before all needed images were created and I fixed this issue using async / await
+So, due to it, the code becomes more synchron and beautiful
+
+3.	Yes. The main difference between regular and arrow functions is that the arrow functions don’t have their own this and arguments binding
+So, both are being taken from the closest non arrow parent function
+
+4.	myFunctionCall(++foo)  --- Increases the value of foo param and using it in the function
+myFunctionCall(foo++) --- Increases the value of foo param, but using the previous value
+
+5.	When using function as a cunstructor we have to add all methods to the prototype of that function, so that all instances could inherite that methods from the constructor function. But when using class as a constuctor we can write all methods inside of that class and the instances could inherite that methods.
+
+6.	If applying two or more styles to the element, browser should determine what rules are important. For example we can use * to set the font-family for the whole page and it’s has a lowest specificity. For changing that we can use class, ID or inline CSS. So, the specificity is something like this
+* < class < ID < inline CSS
+
+7.	!important will break the rules of specificity described above. For example, if we'll add !important to any style using element’s class selector, it will replace the same styles which are written using ID or inline CSS
+We can use classes to apply the same styles to many elements. But if we’ll need to change only one of that elements, we can use !important. Also, it can be used for the responsive design, in media queries
+
+8.	I like to use flex as using it the code looks fewer and nicer. It’s not complicated and everything easier to change for responsive design as well
+The only problem with flexbox is that it's not supported for all browsers yet
+
+9.	It’s not bad practise to use negative margins, but actually, there aren’t much cases when there is need to use it. Also, I’m trying not to use it
+
+10. Not sure, that I clearly understand this question. If we have div element and p inside of it which has 20px of top margin, than the div height becomes 20px as well. 
+In some cases there will be need to use "overflow: hidden" or "overflow: auto" styles for the div
+
+11. Honestly, I'm not using unit tests often. But sure, I'm checking my every task to make sure that everything is correct
+
+12.	---
+
+13.	---
+
+14.	
+
+15.	
+
+16.	
+
+17.	
+
+18.	
+
+19.	
+
+20. I've used Twillo SMS and Voice APIs for sending text and voice SMS. For example, I've done the registration verification using the phone number. After registration user receives a verification code on his / her phone

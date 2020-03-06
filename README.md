@@ -1,1 +1,1 @@
-# React test answers
+# Please check the ```answers.json``` file
